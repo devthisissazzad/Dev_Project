@@ -1,7 +1,12 @@
 import React from "react";
+import Shop from "../Shop/Shop";
 
 const Home = () => {
-  return <div>dev Home Branch Dev_sazzad</div>;
+  return (
+    <div>
+      <Shop />
+    </div>
+  );
 };
 
 export default Home;
