@@ -11,13 +11,13 @@ const Shop = () => {
             Salad
           </h2>
           <h2 className="text-[24px] font-medium text-[#151515] leading-[29.05px] uppercase ">
-            Salad
+          pizza
           </h2>
           <h2 className="text-[24px] font-medium text-[#151515] leading-[29.05px] uppercase ">
-            Salad
+          soups
           </h2>
           <h2 className="text-[24px] font-medium text-[#151515] leading-[29.05px] uppercase ">
-            Salad
+          desserts
           </h2>
         </div>
         <div className="flex justify-between">
