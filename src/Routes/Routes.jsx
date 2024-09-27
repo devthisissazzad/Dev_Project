@@ -11,7 +11,6 @@ export const routes = createBrowserRouter(
   createRoutesFromElements([
     <Route path="/" element={<MainLayout />}>
       <Route path="/" element={<Home />} />
-      <Route path="/shop" element={<Shop />} />
     </Route>,
   ])
 );
