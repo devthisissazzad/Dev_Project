@@ -12,14 +12,8 @@ import LoginUserLayout from "../Layouts/LoginUserLayout";
 
 export const routes = createBrowserRouter(
   createRoutesFromElements([
-    <Route>
-      <Route element={<LoginUserLayout />}>
-        <Route path="/login" element={<Login />} />
-      </Route>
-      <Route path="/" element={<MainLayout />}>
-        <Route path="/" element={<Home />} />
-        <Route path="/shop" element={<Shop />} />
-      </Route>
+    <Route path="/" element={<MainLayout />}>
+      <Route path="/" element={<Home />} />
     </Route>,
   ])
 );

@@ -1,8 +1,44 @@
-# React + Vite
+### Team Work Ecommerce Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**`Clone the Repository`**
+[https://github.com/devthisissazzad/Dev_Project.git](https://github.com/devthisissazzad/Dev_Project.git)
 
-Currently, two official plugins are available:
+```bash
+https://github.com/devthisissazzad/Dev_Project.git
+```
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+**Team Member Works**
+
+**_header - Footer - Banner_**
+`robiulislam.1711@gmail.com`,
+`imamhosain95@gmail.com`
+
+**Oder-Online**
+`aklimakajal11@gmail.com`
+
+**Menu-CallUs**
+`hasnatsarker2003@gmail.com`
+
+**Popular-Menu**
+`pppmasudrana@gmail.com`
+
+**From-Our-Menu**
+`tanvir62003@gmail.com`
+
+**Testimonial**
+`alsiphat30@gmail.com`
+
+**Contact-Us**
+`okmahin2@gmail.com`
+
+**Shop**
+`amitck803@gmail.com`
+
+**LogIn**
+`afsana2884@gmail.com`
+
+**SignUp**
+`samormk6@gmail.com`
+
+**Error-Loader**
+`laksmisanto1998@gmail.com`

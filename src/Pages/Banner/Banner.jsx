@@ -1,7 +1,7 @@
 import React from "react";
 
-const Shop = () => {
+const Banner = () => {
   return <div></div>;
 };
 
-export default Shop;
+export default Banner;
