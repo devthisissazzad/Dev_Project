@@ -1,12 +1,17 @@
 import React from "react";
+import { Link } from "react-router-dom";
+import { FaFacebookF } from "react-icons/fa";
+import { FaGoogle } from "react-icons/fa";
+import { FaGithub } from "react-icons/fa";
 
 const Login = () => {
   return (
-    <div className="bg-[url('./src/assets/LoginImages/login_background.jpg')] py-10">
-      <div className="w-[1200px] shadow-[10px_10px_10px_10px_rgba(0,0,0,0.25)] flex justify-around  mx-auto">
+    <div className="bg-[url('./src/assets/LoginImages/login_background.jpg')] lg:py-10 min-[375px]:py w-full h-screen flex items-center">
+      <div className="lg:w-[1280px] min-[375px]:w-auto shadow-[10px_10px_10px_10px_rgba(0,0,0,0.25)] md:flex justify-around  mx-auto">
+
         {/* ===================  Login Page side image  =======================*/}
 
-        <div className="w-[548px]overflow-hidden flex items-center">
+        <div className="lg:w-[548px] overflow-hidden md:flex items-center min-[375px]:hidden ">
           <img
             className=" object-cover"
             src="./src/assets/LoginImages/login_img.png"
@@ -15,8 +20,8 @@ const Login = () => {
         </div>
         {/* ====================  Login Page Input Part  =======================*/}
 
-        <div className="w-[436px] box-border me-10">
-          <h3 className="font-inter font-bold text-[40px] text-center text-[#151515]">
+        <div className="lg:w-[436px] box-border lg:me-10 min-[375px]:w-auto min-[375px]:me-2">
+          <h3 className="lg:mt-10 min-[375px]:mt-0 font-inter font-bold text-[40px] text-center text-[#151515]">
             Login
           </h3>
           <form action="">
@@ -66,13 +71,26 @@ const Login = () => {
               type="email"
               placeholder="Type Here"
             />
+            {/* ------------------Sign In Button--------------------- */}
             <button
               type="button"
-              class="w-full mt-7 text-white font-bold text-xl  bg-[#D1A054] opacity-70 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg px-5 py-2.5 me-2 mb-2"
+              class="w-full mt-7 text-white font-bold text-xl  bg-[#D1A054] opacity-70 hover:bg-[#faaf3d] focus:ring-4 focus:ring-blue-300 rounded-lg px-5 py-3.5 me-2 mb-2"
             >
-              Default
+              Sign In
             </button>
           </form>
+          {/* -----------Create Account Option----------- */}
+
+          <p className="my-6 font-inter font-medium text-xl text-[#D1A054] text-center">New here?
+            <Link className="font-bold hover:text-[#faaf3d]">Create a New Account</Link> </p>
+          <p className="mb-4 font-inter font-medium text-xl text-[#444444] text-center">Or sign in with</p>
+
+          {/* ----------Login with Facebook/Google/Github--------- */}
+          <div className="flex gap-14 items-center justify-center mb-11">
+            <Link className="w-[52px] h-[52px] rounded-[50%] border-2 border-[#444444] flex items-center justify-center text-2xl"><FaFacebookF /></Link>
+            <Link className="w-[52px] h-[52px] rounded-[50%] border-2 border-[#444444] flex items-center justify-center text-2xl"><FaGoogle /></Link>
+            <Link className="w-[52px] h-[52px] rounded-[50%] border-2 border-[#444444] flex items-center justify-center text-2xl"><FaGithub /></Link>
+          </div>
         </div>
       </div>
     </div>
