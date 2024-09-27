@@ -1,9 +1,19 @@
 import React from "react";
+import Container from "../../Utils/Container/Container";
 
 const CallUs = () => {
-  return  <div className='bg-[#151515] h-[250px] justify-between items-center mt-[130px]'>
-  <p className='text-center text-white justify-between text-align text-[50px] text-semibold pt-[]'>Call Us: +88 0192345678910</p>
-</div>;
+  return (
+    <section>
+      <Container>
+        <div className="bg-[#151515] h-[250px] flex justify-center items-center mt-[130px] text-center">
+          <p className="text-white text-3xl md:text-5xl font-semibold">
+            Call Us: +88 0192345678910
+          </p>
+        </div>
+      </Container>
+    </section>
+  );
 };
 
 export default CallUs;
+
