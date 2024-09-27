@@ -5,37 +5,37 @@ import menuImage from "../../assets/FromOurMenuImages/Menu_Images.png";
 const FromOurMenu = () => {
   const menuItems = [
     {
-      name: "ROAST DUCK BREAST",
+      name: "ROAST DUCK BREAST-------------",
       price: "$14.5",
       description:
         "Roasted duck breast (served pink) with gratin potato and a griottine cherry sauce",
     },
     {
-      name: "TUNA NIÇOISE",
+      name: "TUNA NIÇOISE-------------",
       price: "$14.5",
       description:
         "Tuna served with gratin potato and a griottine cherry sauce",
     },
     {
-      name: "ESCALOPE DE VEAU",
+      name: "ESCALOPE DE VEAU-------------",
       price: "$14.5",
       description:
         "Veal escalope served with gratin potato and a griottine cherry sauce",
     },
     {
-      name: "CHICKEN AND WALNUT SALAD",
+      name: "CHICKEN AND WALNUT SALAD-------------",
       price: "$14.5",
       description:
         "Chicken and walnut salad with gratin potato and a griottine cherry sauce",
     },
     {
-      name: "FISH PARMENTIER",
+      name: "FISH PARMENTIER-------------",
       price: "$14.5",
       description:
         "Fish Parmentier served with gratin potato and a griottine cherry sauce",
     },
     {
-      name: "ROASTED PORK BELLY",
+      name: "ROASTED PORK BELLY--------------",
       price: "$14.5",
       description:
         "Roasted pork belly served with gratin potato and a griottine cherry sauce",
