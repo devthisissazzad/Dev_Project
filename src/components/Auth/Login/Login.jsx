@@ -1,7 +1,7 @@
 import React from "react";
 
-const Shop = () => {
+const Login = () => {
   return <div></div>;
 };
 
-export default Shop;
+export default Login;
