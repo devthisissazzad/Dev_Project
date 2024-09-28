@@ -52,15 +52,15 @@ const Navbar = () => {
         {/* ************** sidebar menu********* */}
         <div
           className={` absolute top-0 right-0 bottom-0 overflow-hidden bg-white transition-all ${
-            visible ? "w-full h-screen" : "w-0"
+            visible ? "w-full h-screen bg-dark1" : "w-0"
           }`}
         >
-          <div className="flex flex-col text-gray-600">
+          <div className="flex flex-col text-white">
             <div
               onClick={() => setVisible(false)}
               className="flex cursor-pointer items-center gap-2 p-3"
             >
-              <IoIosArrowBack className="text-black text-[25px]" /> <p>Back</p>
+              <IoIosArrowBack className="text-white text-[25px]" /> <p>Back</p>
             </div>
             <NavLink onClick={()=>setVisible(false)} to='/' className='py-2 pl-6 border font-bold'>HOME</NavLink>
             <NavLink onClick={()=>setVisible(false)} to='/contact' className='py-2 pl-6 border font-bold'>CONTACT US</NavLink>
