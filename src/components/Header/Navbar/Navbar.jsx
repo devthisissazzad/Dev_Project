@@ -62,11 +62,41 @@ const Navbar = () => {
             >
               <IoIosArrowBack className="text-white text-[25px]" /> <p>Back</p>
             </div>
-            <NavLink onClick={()=>setVisible(false)} to='/' className='py-2 pl-6 border font-bold'>HOME</NavLink>
-            <NavLink onClick={()=>setVisible(false)} to='/contact' className='py-2 pl-6 border font-bold'>CONTACT US</NavLink>
-            <NavLink onClick={()=>setVisible(false)} to='/dashbord' className='py-2 pl-6 border font-bold'>DASHBOARD</NavLink>
-            <NavLink onClick={()=>setVisible(false)} to='/menu' className='py-2 pl-6 border font-bold'>OUR MENU</NavLink>
-            <NavLink onClick={()=>setVisible(false)} to='/shop' className='py-2 pl-6 border font-bold'>OUR SHOP</NavLink>
+            <NavLink
+              onClick={() => setVisible(false)}
+              to="/"
+              className="py-2 pl-6 border font-bold"
+            >
+              HOME
+            </NavLink>
+            <NavLink
+              onClick={() => setVisible(false)}
+              to="/contact"
+              className="py-2 pl-6 border font-bold"
+            >
+              CONTACT US
+            </NavLink>
+            <NavLink
+              onClick={() => setVisible(false)}
+              to="/dashbord"
+              className="py-2 pl-6 border font-bold"
+            >
+              DASHBOARD
+            </NavLink>
+            <NavLink
+              onClick={() => setVisible(false)}
+              to="/menu"
+              className="py-2 pl-6 border font-bold"
+            >
+              OUR MENU
+            </NavLink>
+            <NavLink
+              onClick={() => setVisible(false)}
+              to="/shop"
+              className="py-2 pl-6 border font-bold"
+            >
+              OUR SHOP
+            </NavLink>
           </div>
         </div>
       </div>
@@ -75,4 +105,3 @@ const Navbar = () => {
 };
 
 export default Navbar;
-
