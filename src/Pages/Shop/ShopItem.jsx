@@ -2,9 +2,10 @@ import React from "react";
 
 const ShopItem = ({title,image}) => {
   return (
+    // w-[250px]  lg:w-[380px]
     <div className="bg-[#F3F3F3] w-full text-center ">
       <h3 className="  text-red-300">
-        <img className="w-full object-cover" src={image} alt="shopimage" />
+        <img className="w-full object-cover " src={image} alt="shopimage" />
 
         <h3 className="text-[18px] lg:text-[24px] font-semibold text-[#151515] mt-5 lg:mt-[32px] text-center ">
           {title}
