@@ -1,7 +1,7 @@
 import React from "react";
 
-const Shop = () => {
+const Footer = () => {
   return <div></div>;
 };
 
-export default Shop;
+export default Footer;
