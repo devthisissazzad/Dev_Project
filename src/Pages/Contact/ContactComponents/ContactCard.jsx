@@ -1,5 +1,5 @@
-import React from "react"
-import Flex from "./Flex"
+import React from 'react'
+import Flex from './Flex'
 
 const ContactCard = ({ icon: Icon, heading, content }) => {
 	return (
@@ -16,7 +16,9 @@ const ContactCard = ({ icon: Icon, heading, content }) => {
 				</Flex>
 			</div>
 		</Flex>
+		
 	)
+	
 }
 
 export default ContactCard

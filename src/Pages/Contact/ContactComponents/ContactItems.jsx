@@ -1,11 +1,12 @@
 import React from "react"
-import Flex from "./Flex"
-import ContactCard from "./ContactCard"
 import { FaPhoneVolume } from "react-icons/fa6"
 import { FaMapMarkerAlt } from "react-icons/fa"
 import { FaClock } from "react-icons/fa6"
+import Flex from "./Flex"
+import ContactCard from "./ContactCard"
 
 const ContactItems = () => {
+
 	return (
 		<Flex className={"justify-center gap-6 flex-wrap gap-y-10"}>
 			<ContactCard

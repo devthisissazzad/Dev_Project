@@ -1,5 +1,5 @@
-import React from "react"
-import Flex from "./Flex"
+import React from 'react'
+import Flex from './Flex'
 
 const Heading = ({primary_text, secondary_text}) => {
 	return (
@@ -9,6 +9,7 @@ const Heading = ({primary_text, secondary_text}) => {
 				<h3 className='font-inter text-4xl text-dark1'>{primary_text}</h3>
 			</div>
 		</Flex>
+        
 	)
 }
 
