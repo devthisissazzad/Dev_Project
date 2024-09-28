@@ -1,8 +1,7 @@
 import React from "react";
-import Contact from "../Contact/Contact";
 
 const Home = () => {
-  return <Contact></Contact>
+  return <div>Home</div>;
 };
 
 export default Home;
