@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import logo from "./../../assets/Navbar  image/logo.png";
+import logo from "./../../../assets/Navbar_image/logo.png";
 import { Link, NavLink } from "react-router-dom";
 import { IoMdCart } from "react-icons/io";
 import { FaUserCircle } from "react-icons/fa";
