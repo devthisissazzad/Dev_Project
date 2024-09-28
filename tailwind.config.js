@@ -14,7 +14,7 @@ export default {
       dark6: "#E8E8E8",
       dark7: "#F3F3F3",
       white: "#FFFFFF",
-    }
+    },
   },
   plugins: [],
 };

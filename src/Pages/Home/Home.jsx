@@ -1,12 +1,10 @@
 import React from "react";
-import Shop from "../Shop/Shop";
-import Navbar from "../../Components/Navbar/Navbar";
-
+import From_CallUs from "../FromOurMenu/From_CallUs";
+import Login from "../../components/Auth/Login/Login";
 const Home = () => {
   return (
     <div>
-      <Navbar />
-      <Shop />
+      <Login />
     </div>
   );
 };
