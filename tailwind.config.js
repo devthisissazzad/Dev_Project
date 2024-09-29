@@ -5,6 +5,7 @@ export default {
     fontFamily: {
       inter: ["Inter", "sans-serif"],
     },
+
     colors: {
       dark1: "#151515",
       dark2: "#444444",
@@ -14,6 +15,8 @@ export default {
       dark6: "#E8E8E8",
       dark7: "#F3F3F3",
       white: "#FFFFFF",
+      yellow1: "#D99904",
+      yellow2: "#CD9003",
     },
   },
   plugins: [],
