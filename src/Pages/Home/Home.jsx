@@ -1,8 +1,8 @@
 import React from "react";
-import From_CallUs from "../FromOurMenu/From_CallUs";
+import M_Pizza from "../../components/M_Pizza/M_Pizza";
 
 const Home = () => {
-  return <div>home</div>;
+  return <div>Home Pages</div>;
 };
 
 export default Home;
