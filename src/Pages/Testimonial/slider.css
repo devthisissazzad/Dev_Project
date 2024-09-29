@@ -1,0 +1,49 @@
+
+.slick-arrow.slick-next,
+.slick-arrow.slick-prev{
+background-color: transparent!important;
+
+}
+
+.slick-arrow.slick-next:hover,
+.slick-arrow.slick-prev:hover
+{
+    background-color: #2574f5;
+    opacity:1;
+}
+
+
+.slick-prev::before,.slick-next::before{
+   display: none;
+    
+    }
+
+.arrows{
+height:40px !important;
+width:40px !important;
+margin: 1px;
+
+}
+
+.slick-arrow.slick-prev svg{
+    color: #007AFF !important;
+}
+.slick-arrow.slick-next svg{
+    color: #007AFF !important;
+}
+
+
+.slick-prev {
+    position: absolute;
+    left: 195px !important;
+    z-index: 1;
+    top: 65%!important;
+  }
+.slick-next {
+    position: absolute;
+    right: 200px !important;
+    z-index: 1;
+    top: 65%!important;
+}
+
+
