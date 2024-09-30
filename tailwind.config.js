@@ -4,6 +4,7 @@ export default {
   theme: {
     fontFamily: {
       inter: ["Inter", "sans-serif"],
+      cinzel: ["Cinzel", "serif"],
     },
     colors: {
       dark1: "#151515",
