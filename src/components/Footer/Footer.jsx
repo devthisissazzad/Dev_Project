@@ -23,7 +23,7 @@ const Footer = () => {
             </p>
           </div>
           {/* /// right */}
-          <div className="flex flex-col w-full gap-0 bg-dark2 ">
+          <div className="flex flex-col w-full gap-0 bg-gray-800 ">
             <div className="flex items-center flex-col md:items-center sm:items-center  lg:items-center gap-[20px]">
               <h3 className=" mt-[97px] lg:text-[32px]  text-white ">
                 Follow US
