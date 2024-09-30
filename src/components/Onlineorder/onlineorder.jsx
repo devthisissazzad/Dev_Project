@@ -14,6 +14,14 @@ const Onlineorder = () => {
     <>
       <div>
         <Container>
+          <div className="text-center w-[20%] pt-12 mx-auto">
+            <div className="border-b-4 pb-3  text-[#D99904] text-lg ">
+              <h1 className="font-italic">---From 11:00am to 10:00pm---</h1>
+            </div>
+            <h4 className="border-b-4 pt-7 pb-7 font-inter font-normal text-4xl">
+              ORDER ONLINE
+            </h4>
+          </div>
           <Swiper spaceBetween={10} slidesPerView={4}>
             <div className="">
               <SwiperSlide>

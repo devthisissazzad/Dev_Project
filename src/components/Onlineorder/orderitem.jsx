@@ -4,7 +4,7 @@ import Container from "../../Utils/Container";
 const Orderitem = ({ ordertitle, src }) => {
   return (
     <Container>
-      <div className="pb-5 pt-24 relative justify-center">
+      <div className="pb-5 pt-16 relative justify-center">
         <div>
           <img src={src} className="w-[328px] h-[370px]" />
         </div>
