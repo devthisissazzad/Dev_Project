@@ -23,7 +23,7 @@ const Footer = () => {
             </p>
           </div>
           {/* /// right */}
-          <div className="flex flex-col w-full gap-0 bg-gray-900 ">
+          <div className="flex flex-col w-full gap-0 bg-[#111827] ">
             <div className="flex items-center flex-col md:items-center sm:items-center  lg:items-center gap-[20px]">
               <h3 className=" mt-[97px] lg:text-[32px]  text-white ">
                 Follow US
@@ -47,7 +47,7 @@ const Footer = () => {
         </div>
 
         {/* /// footer bottom part */}
-        <div className="flex justify-center py-[10px] bg-black">
+        <div className="flex justify-center py-[10px] bg-[#151515]">
           <div className="flex self-end justify-center px-2 md:px-3 lg:px-5">
             <p className="text-[12px] font-medium text-white lg:text-[17px]">
               Copyright © CulinaryCloud. All rights reserved.
