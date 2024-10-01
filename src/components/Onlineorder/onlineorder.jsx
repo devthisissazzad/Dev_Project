@@ -1,7 +1,6 @@
 import React from "react";
 import Container from "../../Utils/Container";
 import Orderitem from "./orderitem";
-import Flex from "../../Utils/Flex";
 import "swiper/css";
 import { Swiper, SwiperSlide } from "swiper/react";
 import salad from "./../../assets/Online_order img/salad.png";
@@ -23,172 +22,195 @@ const Onlineorder = () => {
             </h4>
           </div>
           <Swiper spaceBetween={10} slidesPerView={4}>
-            <div className="">
+            <div>
               <SwiperSlide>
-                <Orderitem src={salad} ordertitle="Salads" />
+                <Orderitem src={salad} ordertitle="SALADS" />
               </SwiperSlide>
               <SwiperSlide>
-                <Orderitem src={soups} ordertitle="soups" />
+                <Orderitem src={soups} ordertitle="SOUPS" />
               </SwiperSlide>
               <SwiperSlide>
-                <Orderitem src={pizza} ordertitle="pizza" />
+                <Orderitem src={pizza} ordertitle="PIZZA" />
               </SwiperSlide>
               <SwiperSlide>
-                <Orderitem src={deserts} ordertitle="deserts" />
-              </SwiperSlide>
-            </div>
-            <div className="">
-              <SwiperSlide>
-                <Orderitem src={salad} ordertitle="Salads" />
-              </SwiperSlide>
-              <SwiperSlide>
-                <Orderitem src={soups} ordertitle="soups" />
-              </SwiperSlide>
-              <SwiperSlide>
-                <Orderitem src={pizza} ordertitle="pizza" />
-              </SwiperSlide>
-              <SwiperSlide>
-                <Orderitem src={deserts} ordertitle="deserts" />
+                <Orderitem src={deserts} ordertitle="DESERTS" />
               </SwiperSlide>
             </div>
-            <div className="">
+            <div>
               <SwiperSlide>
-                <Orderitem src={salad} ordertitle="Salads" />
+                <Orderitem src={salad} ordertitle="SALADS" />
               </SwiperSlide>
               <SwiperSlide>
-                <Orderitem src={soups} ordertitle="soups" />
+                <Orderitem src={soups} ordertitle="SOUPS" />
               </SwiperSlide>
               <SwiperSlide>
-                <Orderitem src={pizza} ordertitle="pizza" />
+                <Orderitem src={pizza} ordertitle="PIZZA" />
               </SwiperSlide>
               <SwiperSlide>
-                <Orderitem src={deserts} ordertitle="deserts" />
-              </SwiperSlide>
-            </div>
-            <div className="">
-              <SwiperSlide>
-                <Orderitem src={salad} ordertitle="Salads" />
-              </SwiperSlide>
-              <SwiperSlide>
-                <Orderitem src={soups} ordertitle="soups" />
-              </SwiperSlide>
-              <SwiperSlide>
-                <Orderitem src={pizza} ordertitle="pizza" />
-              </SwiperSlide>
-              <SwiperSlide>
-                <Orderitem src={deserts} ordertitle="deserts" />
+                <Orderitem src={deserts} ordertitle="DESERTS" />
               </SwiperSlide>
             </div>
-            <div className="">
+            <div>
               <SwiperSlide>
-                <Orderitem src={salad} ordertitle="Salads" />
+                <Orderitem src={salad} ordertitle="SALADS" />
               </SwiperSlide>
               <SwiperSlide>
-                <Orderitem src={soups} ordertitle="soups" />
+                <Orderitem src={soups} ordertitle="SOUPS" />
               </SwiperSlide>
               <SwiperSlide>
-                <Orderitem src={pizza} ordertitle="pizza" />
+                <Orderitem src={pizza} ordertitle="PIZZA" />
               </SwiperSlide>
               <SwiperSlide>
-                <Orderitem src={deserts} ordertitle="deserts" />
-              </SwiperSlide>
-            </div>
-            <div className="">
-              <SwiperSlide>
-                <Orderitem src={salad} ordertitle="Salads" />
-              </SwiperSlide>
-              <SwiperSlide>
-                <Orderitem src={soups} ordertitle="soups" />
-              </SwiperSlide>
-              <SwiperSlide>
-                <Orderitem src={pizza} ordertitle="pizza" />
-              </SwiperSlide>
-              <SwiperSlide>
-                <Orderitem src={deserts} ordertitle="deserts" />
+                <Orderitem src={deserts} ordertitle="DESERTS" />
               </SwiperSlide>
             </div>
-            <div className="">
+
+            <div>
               <SwiperSlide>
-                <Orderitem src={salad} ordertitle="Salads" />
+                <Orderitem src={salad} ordertitle="SALADS" />
               </SwiperSlide>
               <SwiperSlide>
-                <Orderitem src={soups} ordertitle="soups" />
+                <Orderitem src={soups} ordertitle="SOUPS" />
               </SwiperSlide>
               <SwiperSlide>
-                <Orderitem src={pizza} ordertitle="pizza" />
+                <Orderitem src={pizza} ordertitle="PIZZA" />
               </SwiperSlide>
               <SwiperSlide>
-                <Orderitem src={deserts} ordertitle="deserts" />
-              </SwiperSlide>
-            </div>
-            <div className="">
-              <SwiperSlide>
-                <Orderitem src={salad} ordertitle="Salads" />
-              </SwiperSlide>
-              <SwiperSlide>
-                <Orderitem src={soups} ordertitle="soups" />
-              </SwiperSlide>
-              <SwiperSlide>
-                <Orderitem src={pizza} ordertitle="pizza" />
-              </SwiperSlide>
-              <SwiperSlide>
-                <Orderitem src={deserts} ordertitle="deserts" />
+                <Orderitem src={deserts} ordertitle="DESERTS" />
               </SwiperSlide>
             </div>
-            <div className="">
+
+            <div>
               <SwiperSlide>
-                <Orderitem src={salad} ordertitle="Salads" />
+                <Orderitem src={salad} ordertitle="SALADS" />
               </SwiperSlide>
               <SwiperSlide>
-                <Orderitem src={soups} ordertitle="soups" />
+                <Orderitem src={soups} ordertitle="SOUPS" />
               </SwiperSlide>
               <SwiperSlide>
-                <Orderitem src={pizza} ordertitle="pizza" />
+                <Orderitem src={pizza} ordertitle="PIZZA" />
               </SwiperSlide>
               <SwiperSlide>
-                <Orderitem src={deserts} ordertitle="deserts" />
-              </SwiperSlide>
-            </div>
-            <div className="">
-              <SwiperSlide>
-                <Orderitem src={salad} ordertitle="Salads" />
-              </SwiperSlide>
-              <SwiperSlide>
-                <Orderitem src={soups} ordertitle="soups" />
-              </SwiperSlide>
-              <SwiperSlide>
-                <Orderitem src={pizza} ordertitle="pizza" />
-              </SwiperSlide>
-              <SwiperSlide>
-                <Orderitem src={deserts} ordertitle="deserts" />
+                <Orderitem src={deserts} ordertitle="DESERTS" />
               </SwiperSlide>
             </div>
-            <div className="">
+
+            <div>
               <SwiperSlide>
-                <Orderitem src={salad} ordertitle="Salads" />
+                <Orderitem src={salad} ordertitle="SALADS" />
               </SwiperSlide>
               <SwiperSlide>
-                <Orderitem src={soups} ordertitle="soups" />
+                <Orderitem src={soups} ordertitle="SOUPS" />
               </SwiperSlide>
               <SwiperSlide>
-                <Orderitem src={pizza} ordertitle="pizza" />
+                <Orderitem src={pizza} ordertitle="PIZZA" />
               </SwiperSlide>
               <SwiperSlide>
-                <Orderitem src={deserts} ordertitle="deserts" />
+                <Orderitem src={deserts} ordertitle="DESERTS" />
+              </SwiperSlide>
+            </div>
+
+            <div>
+              <SwiperSlide>
+                <Orderitem src={salad} ordertitle="SALADS" />
+              </SwiperSlide>
+              <SwiperSlide>
+                <Orderitem src={soups} ordertitle="SOUPS" />
+              </SwiperSlide>
+              <SwiperSlide>
+                <Orderitem src={pizza} ordertitle="PIZZA" />
+              </SwiperSlide>
+              <SwiperSlide>
+                <Orderitem src={deserts} ordertitle="DESERTS" />
+              </SwiperSlide>
+            </div>
+
+            <div>
+              <SwiperSlide>
+                <Orderitem src={salad} ordertitle="SALADS" />
+              </SwiperSlide>
+              <SwiperSlide>
+                <Orderitem src={soups} ordertitle="SOUPS" />
+              </SwiperSlide>
+              <SwiperSlide>
+                <Orderitem src={pizza} ordertitle="PIZZA" />
+              </SwiperSlide>
+              <SwiperSlide>
+                <Orderitem src={deserts} ordertitle="DESERTS" />
+              </SwiperSlide>
+            </div>
+
+            <div>
+              <SwiperSlide>
+                <Orderitem src={salad} ordertitle="SALADS" />
+              </SwiperSlide>
+              <SwiperSlide>
+                <Orderitem src={soups} ordertitle="SOUPS" />
+              </SwiperSlide>
+              <SwiperSlide>
+                <Orderitem src={pizza} ordertitle="PIZZA" />
+              </SwiperSlide>
+              <SwiperSlide>
+                <Orderitem src={deserts} ordertitle="DESERTS" />
+              </SwiperSlide>
+            </div>
+
+            <div>
+              <SwiperSlide>
+                <Orderitem src={salad} ordertitle="SALADS" />
+              </SwiperSlide>
+              <SwiperSlide>
+                <Orderitem src={soups} ordertitle="SOUPS" />
+              </SwiperSlide>
+              <SwiperSlide>
+                <Orderitem src={pizza} ordertitle="PIZZA" />
+              </SwiperSlide>
+              <SwiperSlide>
+                <Orderitem src={deserts} ordertitle="DESERTS" />
+              </SwiperSlide>
+            </div>
+
+            <div>
+              <SwiperSlide>
+                <Orderitem src={salad} ordertitle="SALADS" />
+              </SwiperSlide>
+              <SwiperSlide>
+                <Orderitem src={soups} ordertitle="SOUPS" />
+              </SwiperSlide>
+              <SwiperSlide>
+                <Orderitem src={pizza} ordertitle="PIZZA" />
+              </SwiperSlide>
+              <SwiperSlide>
+                <Orderitem src={deserts} ordertitle="DESERTS" />
+              </SwiperSlide>
+            </div>
+
+            <div>
+              <SwiperSlide>
+                <Orderitem src={salad} ordertitle="SALADS" />
+              </SwiperSlide>
+              <SwiperSlide>
+                <Orderitem src={soups} ordertitle="SOUPS" />
+              </SwiperSlide>
+              <SwiperSlide>
+                <Orderitem src={pizza} ordertitle="PIZZA" />
+              </SwiperSlide>
+              <SwiperSlide>
+                <Orderitem src={deserts} ordertitle="DESERTS" />
               </SwiperSlide>
             </div>
 
             <SwiperSlide>
-              <Orderitem src={salad} ordertitle="Salads" />
+              <Orderitem src={salad} ordertitle="SALADS" />
             </SwiperSlide>
             <SwiperSlide>
-              <Orderitem src={soups} ordertitle="soups" />
+              <Orderitem src={soups} ordertitle="SOUPS" />
             </SwiperSlide>
             <SwiperSlide>
-              <Orderitem src={pizza} ordertitle="pizza" />
+              <Orderitem src={pizza} ordertitle="PIZZA" />
             </SwiperSlide>
             <SwiperSlide>
-              <Orderitem src={deserts} ordertitle="deserts" />
+              <Orderitem src={deserts} ordertitle="DESERTS" />
             </SwiperSlide>
             <div className=" text-center pt-5 pb-10 ">
               <Sliderbuttons />
