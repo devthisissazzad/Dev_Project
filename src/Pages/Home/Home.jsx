@@ -9,7 +9,6 @@ const Home = () => {
     <div>
       {/* <Navbar /> */}
       <Banner />
-      <Onlineorder />
       <Bistroboss />
       <Shop />
     </div>
