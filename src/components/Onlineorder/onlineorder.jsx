@@ -13,11 +13,11 @@ const Onlineorder = () => {
     <>
       <div>
         <Container>
-          <div className="text-center w-[20%] pt-12 mx-auto">
-            <div className="border-b-4 pb-3  text-[#D99904] text-lg ">
+          <div className="text-center 2xl:w-[20%] md:w-[260px] pt-12 mx-auto">
+            <div className="border-b-4 pb-3  text-[#D99904] 2xl:text-lg lg:text-base md:text-base">
               <h1 className="font-italic">---From 11:00am to 10:00pm---</h1>
             </div>
-            <h4 className="border-b-4 pt-7 pb-7 font-inter font-normal text-4xl">
+            <h4 className="border-b-4 lg:pt-7 lg:pb-7 md:pb-4 md:pt-4 font-inter font-normal md:text-lg 2xl:text-4xl">
               ORDER ONLINE
             </h4>
           </div>
