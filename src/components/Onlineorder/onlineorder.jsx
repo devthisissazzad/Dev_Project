@@ -1,13 +1,12 @@
 import React from "react";
-import Container from "../../Utils/Container";
 import Orderitem from "./orderitem";
-import "swiper/css";
 import { Swiper, SwiperSlide } from "swiper/react";
 import salad from "./../../assets/Online_order img/salad.png";
 import soups from "./../../assets/Online_order img/soups.png";
 import pizza from "./../../assets/Online_order img/pizza.png";
 import deserts from "./../../assets/Online_order img/deserts.png";
 import Sliderbuttons from "../Sliderbuttons/sliderbuttons";
+import Container from "../../Utils/Container/Container";
 const Onlineorder = () => {
   return (
     <>
