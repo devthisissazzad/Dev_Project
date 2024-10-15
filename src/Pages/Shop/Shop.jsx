@@ -40,10 +40,8 @@ const Shop = () => {
           </h2>
         </div>
         {/* ==============================nav end========================== */}
-      
-        
-        <Pagination itemsPerPage={9} cardData={cardData} />
 
+        <Pagination itemsPerPage={9} cardData={cardData} />
       </Container>
     </section>
   );
