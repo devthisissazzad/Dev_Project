@@ -24,6 +24,12 @@ const Bistroboss = () => {
                 officiis praesentium! Deserunt magni aperiam dolor eius dolore
                 at, nihil iusto ducimus incidunt quibusdam nemo.
               </p>
+              <p className=" text-center text-neutral-700 sm:text-base 2xl:text-lg lg:text-base font-inter ">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Necessitatibus, libero accusamus laborum deserunt ratione dolor
+                officiis praesentium! Deserunt magni aperiam dolor eius dolore
+                at, nihil iusto ducimus incidunt quibusdam nemo.
+              </p>
             </div>
           </div>
         </div>
