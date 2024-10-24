@@ -1,6 +1,7 @@
 import React from "react";
 import Orderitem from "./orderitem";
 import { Swiper, SwiperSlide } from "swiper/react";
+import "swiper/css";
 import salad from "./../../assets/Online_order img/salad.png";
 import soups from "./../../assets/Online_order img/soups.png";
 import pizza from "./../../assets/Online_order img/pizza.png";
@@ -20,7 +21,8 @@ const Onlineorder = () => {
               ORDER ONLINE
             </h4>
           </div>
-          <Swiper spaceBetween={10} slidesPerView={4}>
+
+          <Swiper spaceBetween={50} slidesPerView={4}>
             <div>
               <SwiperSlide>
                 <Orderitem src={salad} ordertitle="SALADS" />
@@ -211,6 +213,7 @@ const Onlineorder = () => {
             <SwiperSlide>
               <Orderitem src={deserts} ordertitle="DESERTS" />
             </SwiperSlide>
+
             <div className=" text-center pt-5 pb-10 ">
               <Sliderbuttons />
             </div>
