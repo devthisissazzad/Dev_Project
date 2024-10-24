@@ -1,6 +1,6 @@
 import React from "react";
-import Container from "../../Utils/Container";
 import Onlineorder from "../Onlineorder/onlineorder";
+import Container from "../../Utils/Container/Container";
 
 const Bistroboss = () => {
   return (
@@ -18,6 +18,12 @@ const Bistroboss = () => {
               <h4 className="text-center font-medium sm:text-2xl md:text-2xl lg:text-3xl  2xl:text-4xl   pb-6 text-black font-inter">
                 Bistro Boss
               </h4>
+              <p className=" text-center text-neutral-700 sm:text-base 2xl:text-lg lg:text-base font-inter ">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Necessitatibus, libero accusamus laborum deserunt ratione dolor
+                officiis praesentium! Deserunt magni aperiam dolor eius dolore
+                at, nihil iusto ducimus incidunt quibusdam nemo.
+              </p>
               <p className=" text-center text-neutral-700 sm:text-base 2xl:text-lg lg:text-base font-inter ">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Necessitatibus, libero accusamus laborum deserunt ratione dolor
