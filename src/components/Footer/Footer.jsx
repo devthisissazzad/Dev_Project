@@ -11,7 +11,7 @@ const Footer = () => {
         {/* /// footer left and right side */}
         <div className="flex">
           {/* /// left side */}
-          <div className="  py-24 items-center text-center w-full gap-6 bg-gray-900">
+          <div className=" bg-[#1F2937] py-24 items-center text-center w-full gap-6 bg-gray-900">
             <Link className="mb-[24px]  lg:text-[32px] md:mr-0 md:text-[26px] sm:text-[24px]">
               CONTACT US
             </Link>
